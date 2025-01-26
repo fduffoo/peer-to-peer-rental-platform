@@ -22,7 +22,7 @@ This is a simple API for a peer-to-peer rental platform where users can list, re
 **Example Request**:
 
 GET http://localhost:3000/items
-![Screenshot](images/get_all_items.png)
+![Screenshot](../images/get_all_items.png)
 
 ### **2. Add items**
 **URL**: `/items`
@@ -33,7 +33,7 @@ GET http://localhost:3000/items
   - `description` (string): A description of the item.
   - `pricePerDay` (float): Rental price per day.
   - `availability` (boolean): Whether the item is available for rent.
-  ![Screenshot](images/post_item.png)
+  ![Screenshot](../images/post_item.png)
 
 **Example Request**:
 
@@ -52,7 +52,7 @@ POST http://localhost:3000/items
 **Example Request**:
 
 POST http://localhost:3000/items/rent/1
-  ![Screenshot](images/rent_item.png)
+  ![Screenshot](../images/rent_item.png)
 
 ### **4. Return an item**
 - **URL**: `/items/return/:id`
@@ -65,7 +65,7 @@ POST http://localhost:3000/items/rent/1
 **Example Request**:
 
 POST http://localhost:3000/items/return/1
-  ![Screenshot](images/return_item.png)
+  ![Screenshot](../images/return_item.png)
 
 ### **5. Delete an item**
 - **URL**: `/items/:id`
@@ -78,7 +78,7 @@ POST http://localhost:3000/items/return/1
 **Example Request**:
 
 DELETE http://localhost:3000/items/1
-  ![Screenshot](images/delete_item_by_id.png)
+  ![Screenshot](../images/delete_item_by_id.png)
 
 ### **6. Update item details**
 - **URL**: `/items/:id`
@@ -96,7 +96,7 @@ DELETE http://localhost:3000/items/1
 **Example Request**:
 
 PUT http://localhost:3000/items/1
-  ![Screenshot](images/update_item_details.png)
+  ![Screenshot](../images/update_item_details.png)
 
 
 
