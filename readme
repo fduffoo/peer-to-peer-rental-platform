@@ -11,6 +11,10 @@ This is a simple API for a peer-to-peer rental platform where users can list, re
 5. **Delete items**.
 6. **Update item details**.
 
+## **Visual Proof of API Fuctions**
+
+For a clearer understanding of how the API functions, please refer to the images folder, where you'll find screenshots of all the API endpoints in action.
+
 ## **API Endpoints**
 
 ### **1. List all items**
