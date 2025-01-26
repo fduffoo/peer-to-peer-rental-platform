@@ -20,7 +20,7 @@ This is a simple API for a peer-to-peer rental platform where users can list, re
 - **Response**: A JSON array of rental items.
 
 **Example Request**:
-```bash
+
 GET http://localhost:3000/items
 ![Screenshot](images/get_all_items.png)
 
@@ -36,7 +36,7 @@ GET http://localhost:3000/items
   ![Screenshot](images/post_item.png)
 
 **Example Request**:
-```bash
+
 POST http://localhost:3000/items
 
 ### **3. Rent an item**
@@ -50,7 +50,7 @@ POST http://localhost:3000/items
   - `endDate` (string): The end date of the rental (ISO format).
 
 **Example Request**:
-```bash
+
 POST http://localhost:3000/items/rent/1
   ![Screenshot](images/rent_item.png)
 
@@ -63,7 +63,7 @@ POST http://localhost:3000/items/rent/1
 - **Response**: A JSON object confirming the item has been returned and is available again.
 
 **Example Request**:
-```bash
+
 POST http://localhost:3000/items/return/1
   ![Screenshot](images/return_item.png)
 
@@ -76,7 +76,7 @@ POST http://localhost:3000/items/return/1
 - **Response**: A JSON object confirming the item has been deleted.
 
 **Example Request**:
-```bash
+
 DELETE http://localhost:3000/items/1
   ![Screenshot](images/delete_item_by_id.png)
 
@@ -94,7 +94,7 @@ DELETE http://localhost:3000/items/1
 - **Response**: A JSON object with the updated item details.
 
 **Example Request**:
-```bash
+
 PUT http://localhost:3000/items/1
   ![Screenshot](images/update_item_details.png)
 
