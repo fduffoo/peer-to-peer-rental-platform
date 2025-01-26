@@ -22,7 +22,7 @@ This is a simple API for a peer-to-peer rental platform where users can list, re
 **Example Request**:
 
 GET http://localhost:3000/items
-![Screenshot](images/get_all_items.png)
+![Screenshot](https://github.com/fduffoo/peer-to-peer-rental-platform/blob/master/images/get_all_items.png?raw=true)
 
 ### **2. Add items**
 **URL**: `/items`
